@@ -11,22 +11,22 @@
 <body>
     <div id="container">
         <div class="userId">
-            <button onclick="loadId()" class="show">ID</button>
-            <button onclick="dropId()" class="hide">ID</button>
+            <button onclick="loadId(0)" class="show">ID</button>
+            <button onclick="dropId(0)" class="hide">ID</button>
             <ul class="list drop">
             </ul>
         </div>
         <div class="title">
-            <button onclick="loadTitle()" class="show">Title</button>
-            <button onclick="dropTitle()" class="hide">Title</button>
+            <button onclick="loadId(1)" class="show">Title</button>
+            <button onclick="dropId(1)" class="hide">Title</button>
             <ul class="list drop"></ul>
         </div>
         <div class="body">
-            <button onclick="loadBody()" class="show">Body</button>
-            <button onclick="dropBody()" class="hide">Body</button>
+            <button onclick="loadId(2)" class="show">Body</button>
+            <button onclick="dropId(2)" class="hide">Body</button>
             <ul class="list drop"></ul>
         </div>
     </div>
-    <script src="request.js"></script>
+    <script src="request1.js"></script>
 </body>
 </html>
