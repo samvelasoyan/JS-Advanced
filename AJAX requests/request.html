@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/AJAX requests/request.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div class="userId">
+            <button onclick="loadId()" class="show">ID</button>
+            <button onclick="dropId()" class="hide">ID</button>
+            <ul class="list drop">
+            </ul>
+        </div>
+        <div class="title">
+            <button onclick="loadTitle()" class="show">Title</button>
+            <button onclick="dropTitle()" class="hide">Title</button>
+            <ul class="list drop"></ul>
+        </div>
+        <div class="body">
+            <button onclick="loadBody()" class="show">Body</button>
+            <button onclick="dropBody()" class="hide">Body</button>
+            <ul class="list drop"></ul>
+        </div>
+    </div>
+    <script src="request.js"></script>
+</body>
+</html>
