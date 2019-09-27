@@ -11,20 +11,38 @@
 <body>
     <div id="container">
         <div class="userId">
-            <button onclick="loadId(0)" class="show">ID</button>
-            <button onclick="dropId(0)" class="hide">ID</button>
-            <ul class="list drop">
+            <button onclick="loadId()" class="show">ID</button>
+            <button onclick="dropContent(0)" class="hide">
+                <span></span> 
+                <span></span>
+                <span></span>
+                <span></span>
+                ID
+            </button>
+            <ul class="list">
             </ul>
         </div>
         <div class="title">
-            <button onclick="loadId(1)" class="show">Title</button>
-            <button onclick="dropId(1)" class="hide">Title</button>
-            <ul class="list drop"></ul>
+            <button onclick="loadTitle()" class="show">Title</button>
+            <button onclick="dropContent(1)" class="hide">
+                <span></span> 
+                <span></span>
+                <span></span>
+                <span></span>
+                Title
+            </button>
+            <ul class="list"></ul>
         </div>
         <div class="body">
-            <button onclick="loadId(2)" class="show">Body</button>
-            <button onclick="dropId(2)" class="hide">Body</button>
-            <ul class="list drop"></ul>
+            <button onclick="loadBody()" class="show">Body</button>
+            <button onclick="dropContent(2)" class="hide">
+                <span></span> 
+                <span></span>
+                <span></span>
+                <span></span>
+                Body
+            </button>
+            <ul class="list"></ul>
         </div>
     </div>
     <script src="request.js"></script>
