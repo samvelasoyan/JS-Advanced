@@ -1,0 +1,126 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Open Sans';
+    background-color: black;
+    overflow: hidden;
+}
+.camouflage{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: url(/constructors/weapons/images/47803.jpg);
+    background-size: cover;
+    opacity: 0.7;
+    position: absolute
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    position: absolute
+}
+.weapons{
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    position: absolute;
+}
+.weapon{
+    width: 30%;
+    height: 80%;
+    position: relative;
+    background-color: #10180c8c;
+    transition: 1s;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+.weapon:hover{
+    background-color: #10180ca4;
+}
+.front{
+    position: absolute;
+    width: 72%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+}
+.img{
+    width: 60%;
+    height: 90%;   
+    margin: 0;
+    cursor: pointer;
+}
+.first{
+    background: url(/constructors/weapons/images/ak74-1.png) no-repeat;
+    background-size: contain; 
+    margin: 5% 0 0 40%
+}
+.second{
+    background: url(/constructors/weapons/images/SVD_Dragunov-1.png) no-repeat;
+    background-size: contain; 
+    margin: 5% 0 0 50%
+}
+.third{
+    background: url(/constructors/weapons/images/PKM1-1.png) no-repeat;
+    background-size: contain; 
+    margin: 5% 0 0 45%
+}
+.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 5% 0;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+.image{
+    width: 90%;
+    height: 20%;
+    margin: 0 5%; 
+    cursor: pointer;
+}
+.ak74{
+    background: url(/constructors/weapons/images/ak74.png) no-repeat;
+    background-size: contain;
+}
+.pkm{
+    background: url(/constructors/weapons/images/PKM1.png) no-repeat;
+    background-size: contain;
+}
+.svd{
+    background: url(/constructors/weapons/images/SVD_Dragunov.png) no-repeat;
+    background-size: contain;
+}
+.flip{
+    transform: rotateY(180deg)
+}
+.text{
+    width: 100%;
+    height: 75%;
+}
+table{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bolder; 
+    color: #96ad8c
+}
+td{
+    padding: 0 2%
+}
+td:first-child{
+    text-align: right;
+    width: 50%;
+}
+td:last-child{
+    width: 50%;
+}
