@@ -12,10 +12,44 @@ html,body{
     padding: 2% 0;
     margin: 0;
     border: 0;
+    transition: 300ms;
+    position: absolute;
+}
+.background{
     background: url(/constructors/cars/images/rolls-royce-background.jpg) no-repeat;
     background-size: cover;
-    transition: 500ms;
 }
+.change0{
+    background: url(/constructors/cars/images/phantom1.jpg) no-repeat;
+    background-size: cover;
+    transition: 300ms;
+}
+.change1{
+    background: url(/constructors/cars/images/ghost1.jpg) no-repeat;
+    background-size: cover;
+    transition: 300ms;
+}
+.change2{
+    background: url(/constructors/cars/images/wraith1.jpg) no-repeat;
+    background-size: cover;
+    transition: 300ms;
+}
+.change3{
+    background: url(/constructors/cars/images/dawn1.jpg) no-repeat;
+    background-size: cover;
+    transition: 300ms;
+}
+.change4{
+    background: url(/constructors/cars/images/cullinan1.jpg) no-repeat;
+    background-size: cover;
+    transition: 300ms;
+}
+.change5{
+    background: url(/constructors/cars/images/blackbadge1.jpg) no-repeat;
+    background-size: cover;
+    transition: 300ms;
+}
+
 .logo{
     width: 90px;
     height: 160px;
@@ -63,8 +97,6 @@ html,body{
     line-height: 1;
     padding: 0 10px
 }
-.text>ul:first-child{
-}
 .text>ul:last-child{
     text-align: right;
 }
@@ -99,8 +131,14 @@ li:last-child:hover{
     background: url(/constructors/cars/images/cullinan.png) no-repeat;
     background-size: contain;
     margin-left: 40px;
+    width: 80%
 }
 .car:nth-child(6)>.img{
     background: url(/constructors/cars/images/black-badge.png) no-repeat;
     background-size: contain;
+}
+@media screen and (max-width: 1350px){
+    .main{
+        height: 140%
+    }
 }
